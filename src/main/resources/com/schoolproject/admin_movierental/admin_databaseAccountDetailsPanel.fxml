@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="502" prefWidth="752" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.schoolproject.admin_movierental.admin_databaseAccountDetailsPanelController">
+   <children>
+      <TableView fx:id="DatabaseTable" layoutX="14.0" layoutY="14.0" prefHeight="480.0" prefWidth="716.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn prefWidth="108.0" text="account_number" />
+            <TableColumn prefWidth="96.0" text="account_name" />
+            <TableColumn prefWidth="96.0" text="created_date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
